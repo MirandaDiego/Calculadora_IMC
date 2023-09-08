@@ -1,0 +1,188 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #ffffff5e;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+input,
+button,
+a {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header {
+    max-width: 144rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.template1 {
+    display: grid;
+    place-items: center;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    background: linear-gradient(#92f5a2, #9ed89e);
+    padding: 5rem 5rem 10rem 5rem;
+    border-radius: 1rem;
+    box-shadow: .2rem .2rem .2rem .1rem rgba(0, 0, 0, 0.3);
+    border: .1rem solid rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.card label {
+    margin-right: 1rem;
+    color: rgba(22, 22, 22, 0.781);
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.input input,
+select {
+    padding: 1.4rem 2.6rem;
+    border-radius: 1rem;
+    border: none;
+    outline: 1px solid rgb(2, 2, 2);
+    width: 32rem;
+}
+select{
+    width: 32rem;
+    margin-right: 3rem;
+    font-size: 1.6rem;
+}
+
+.template2 {
+    display: grid;
+    place-items: center;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.template2 .card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    padding: 3rem 14rem 12rem 5rem;
+    font-size: 2rem;
+}
+
+.template2 h1 {
+    color: rgba(247, 247, 247, 0.877);
+    padding-bottom: 2rem;
+}
+
+.template2 a {
+    color: rgb(116, 25, 96);
+}
+
+.template2 .card strong {
+    font-size: 2.2rem;
+    color: rgba(10, 10, 10, 0.418);
+}
+
+.template2 label {
+    color: rgba(22, 22, 22, 0.781);
+}
+
+.tabela {
+    position: absolute;
+    left: 70;
+    top: 50;
+    width: 385;
+    display: flex;
+    border: .2rem solid #000000;
+}
+
+.indice {
+    display: flex;
+    flex-direction: column;
+}
+
+.indice h2 {
+    padding-left: 1rem;
+}
+
+.indice strong {
+    margin-bottom: .3rem;
+    padding-right: 10rem;
+}
+
+.template2 .tabela strong:nth-child(even) {
+    background-color: #59a86e;
+}
+
+.classificacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.classificacao span {
+    margin-bottom: .3rem;
+    font-weight: 400;
+    color: #383636;
+}
+
+span:nth-child(even) {
+    background-color: #59a86e;
+}
+
+.hide {
+    display: none;
+    transition: .7s;
+}
+
+.hide2 {
+    display: none;
+}
+
+button {
+    background: linear-gradient(#62d373, #3c5a3c);
+    color: white;
+    padding: 1.7rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border: none;
+    border-radius: .7rem;
+}
+
+button:hover {
+    background: linear-gradient(#62d373, #45c445);
+    color: white;
+    cursor: pointer;
+}
+
+.template1 button {
+    position: absolute;
+    bottom: 20;
+}
+
+.template2 button {
+    position: absolute;
+    bottom: 20;
+}
