@@ -1,10 +1,6 @@
 # Calculadora_IMC
 
-<h1 align="center"> Curso Rocketseat Explorer</h1>
-
-<p align="center">
-Aluno: Diego Miranda Duarte<br>
-</p>
+<h1 align="center"> Calculadora IMC</h1>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
